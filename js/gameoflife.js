@@ -35,6 +35,7 @@ const corners = (state = []) => {
   };
 
 const printCells = (state) => {
+  /*
 
   const {bottomLeft, topRight} = corners(state);
   let accumulator = "";
@@ -47,6 +48,7 @@ const printCells = (state) => {
     accumulator+=row.join(" ")+"\n";
   }
   return accumulator;
+  */
 };
 
 const getNeighborsOf = ([x, y]) => {};

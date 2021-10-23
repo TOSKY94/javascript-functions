@@ -34,7 +34,7 @@ const corners = (state = []) => {
       bottomLeft: [Math.min(...xs), Math.min(...ys)]
     }
   };
-};
+
 
 const printCells = (state) => {};
 

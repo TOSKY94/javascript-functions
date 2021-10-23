@@ -1,4 +1,4 @@
-function seed(...arguments) {
+function seed() {
   return Array.prototype.slice.call(arguments);
 }
 
